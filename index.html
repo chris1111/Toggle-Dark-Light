@@ -1,0 +1,102 @@
+<!-- Creator: chris1111: https://github.com/chris1111 -->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Toggle Dark/Light</title>
+   </head>
+   <div align="left">
+       <p style="color:DodgerBlue;">Toggle Dark/Light</p>
+       <div id="container">
+        <label class="switch">
+        <input type="checkbox" onclick="changeMode()">
+        <span class="slider"></span>
+        </label>
+        </div>
+   </div>
+<head>
+          <style>
+              
+              /* Toggle Dark Light by chris1111 */
+              
+              body {
+                  background: #2d313a;
+                  transition: all 0.3s ease-in-out;
+              }
+              ChangeMode {
+                  background: #2d313a;
+              }
+              body {
+                  margin: 0;
+                  padding: 0;
+                  font-family: "Open Sans", sans-serif;
+                  background: #2d313a;
+                  transition: .6s;
+              }
+              #container {
+                  position: sticky;
+                  cursor: pointer;
+                  top: 0;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+              }
+              .switch {
+                  position: relative;
+                  display: inline-block;
+                  width: 70px;
+                  height: 38px;
+                  border-radius: 50px;
+                  box-shadow: 0px 0px 4px 4px rgb(0,0,0);
+              }
+              .switch input {
+                  display: none;
+              }
+              .slider {
+                  position: absolute;
+                  cursor: pointer;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  background: linear-gradient(180deg,#777,#3a3a3a);
+                  border-radius: 34px;
+                  transition: 0.3s;
+              }
+              .slider:before {
+                  content: url(https://user-images.githubusercontent.com/6248794/220448138-84647214-03bb-4831-a9a2-55f537e920e9.png);
+                  position: absolute;
+                  height: 30px;
+                  width: 30px;
+                  left: 5px;
+                  bottom: 4px;
+                  border-radius: 50%;
+                  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.5);
+                  transition: 0.3s;
+              }
+              input:checked + .slider {
+                  background: #D3D3D3;
+              }
+              input:checked + .slider:before {
+                  transform: translateX(30px);
+                  content: url(https://user-images.githubusercontent.com/6248794/220448157-bec4584e-eae0-4a67-9ba7-e5d0525ed504.png);
+              }
+              .dark-mode {
+                  background: #DBDFE2;
+              }
+              .dark-mode {
+                  background-color: #DBDFE2;
+                  color: #2d313a;
+              }
+          </style>
+          <script>
+              /* js part */
+              
+              function changeMode() {
+                 var element = document.body;
+                 element.classList.toggle("dark-mode");
+              }
+          </script>
+</html>
