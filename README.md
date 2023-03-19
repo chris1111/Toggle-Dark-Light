@@ -1,4 +1,5 @@
 # Toggle Dark/Light
+- I'm not a web expert or HTML Coder but I have a lot of fun doing stuff like that.
 
 Simple html page for toggle Dark/Light ➣ [Demo](https://chris1111.github.io/Toggle-Dark-Light/)
 
