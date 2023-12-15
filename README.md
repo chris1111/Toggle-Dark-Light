@@ -3,7 +3,7 @@
 
 Simple html page for toggle Dark/Light ➣ [Demo](https://chris1111.github.io/Toggle-Dark-Light/)
 
-Download Release App ➣ [ToggleDarkLight.app.zip](https://github.com/chris1111/Toggle-Dark-Light/releases/tag/V2)
+Download Release App ➣ [ToggleDarkLight.app.zip](https://github.com/chris1111/Toggle-Dark-Light/releases/tag/V3)
 
 Build by: [chris1111](https://github.com/chris1111/)
 App Created from: [MacGap](https://macgapproject.github.io/)
