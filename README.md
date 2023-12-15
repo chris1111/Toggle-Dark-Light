@@ -20,4 +20,4 @@ make
 
 - [Result ⇩] ` in build folder`
 
-<img src="Images/Screenshot.png" alt="Github Project" style="width:20%;">
+<img src="Images/Screenshot.png" alt="Github Project" style="width:100%;">
