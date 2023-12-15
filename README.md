@@ -19,4 +19,5 @@ make
 ```
 
 - [Result ⇩] ` in build folder`
-![Screenshot Build](https://user-images.githubusercontent.com/6248794/226109705-06dd9da8-6b86-47fe-bd57-39f84889f268.png)
+
+<img src="Images/Screenshot.png" alt="Github Project" style="width:20%;">
